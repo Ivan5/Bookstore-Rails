@@ -355,3 +355,420 @@ Started GET "/" for ::1 at 2017-02-08 22:36:36 -0600
 Processing by BooksController#index as HTML
   Rendered books/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 119ms (Views: 118.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:41:31 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2017-02-08 22:41:35 -0600
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:41:46 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:42:25 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2017-02-08 22:42:27 -0600
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for ::1 at 2017-02-08 22:42:28 -0600
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 106ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:42:30 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:43:12 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:45:00 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2017-02-08 22:45:02 -0600
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 77ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:45:08 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 103ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:46:17 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:47:36 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:49:11 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_sidebar.html.erb (0.5ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:51:54 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.5ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 213ms (Views: 212.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-88270e995a971637331008581297883ca0370371149731964a19371efe77fddf.css?body=1" for ::1 at 2017-02-08 22:51:54 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 22:52:46 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_sidebar.html.erb (0.5ms)
+Completed 200 OK in 135ms (Views: 134.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:53:56 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_sidebar.html.erb (19.4ms)
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 0.0ms)
+
+SyntaxError (c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:1: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...rams[:controller] ==  'about' );@output_buffer.safe_append='
+...                               ^
+c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:12: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.safe_append='
+                                    ^
+c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:14: syntax error, unexpected keyword_ensure, expecting ')'
+c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:16: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/partials/_sidebar.html.erb:1: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+  app/views/partials/_sidebar.html.erb:12: syntax error, unexpected keyword_end
+  app/views/partials/_sidebar.html.erb:14: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/partials/_sidebar.html.erb:16: syntax error, unexpected keyword_end, expecting ')'
+  app/views/layouts/application.html.erb:57:in `_app_views_layouts_application_html_erb___912745927_73464528'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1277.7ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1129.7ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2552.1ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:54:45 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.5ms)
+  Rendered partials/_sidebar.html.erb (1.5ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+SyntaxError (c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:1: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...rams[:controller] ==  'about' );@output_buffer.safe_append='
+...                               ^
+c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:12: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.safe_append='
+                                    ^
+c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:14: syntax error, unexpected keyword_ensure, expecting ')'
+c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:16: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/partials/_sidebar.html.erb:1: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+  app/views/partials/_sidebar.html.erb:12: syntax error, unexpected keyword_end
+  app/views/partials/_sidebar.html.erb:14: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/partials/_sidebar.html.erb:16: syntax error, unexpected keyword_end, expecting ')'
+  app/views/layouts/application.html.erb:57:in `_app_views_layouts_application_html_erb___912745927_73464528'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1189.1ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1081.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2484.7ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:55:13 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_sidebar.html.erb (0.5ms)
+Completed 200 OK in 136ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2017-02-08 22:55:15 -0600
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  Rendered partials/_sidebar.html.erb (0.5ms)
+Completed 200 OK in 124ms (Views: 124.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:55:17 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 22:56:26 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 218ms (Views: 217.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9a2b4de53015d19f107b53ebaf7e1bb37dd33430c61f4c029c78aea983d2549b.css?body=1" for ::1 at 2017-02-08 22:56:27 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:01:59 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (438.6ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 662ms (Views: 660.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cover1-2c40294709aad9d6fb256447d85e9dee84f2e4955cb48a35d750e091738417a1.jpg" for ::1 at 2017-02-08 23:01:59 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:02:49 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+SyntaxError (c:/Users/conve/Documents/ruby-rails/bookstore/app/views/books/index.html.erb:6: syntax error, unexpected '='
+...ead More', book_path(1), class="btn btn-primary" );@output_b...
+...                               ^):
+  app/views/books/index.html.erb:6: syntax error, unexpected '='
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1193.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1115.2ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2526.9ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:03:17 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
+
+SyntaxError (c:/Users/conve/Documents/ruby-rails/bookstore/app/views/books/index.html.erb:6: syntax error, unexpected '='
+...ead More', book_path(1), class='btn btn-primary' );@output_b...
+...                               ^):
+  app/views/books/index.html.erb:6: syntax error, unexpected '='
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1173.2ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1082.6ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2520.4ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:03:44 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 129ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:03:54 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (2.5ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 133ms (Views: 132.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:04:50 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (8.5ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 138ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cover2-417c8c49410b88c94c09ab875e552e9650a60c4eaacb8e9dc093fa1993dbdda7.jpg" for ::1 at 2017-02-08 23:04:51 -0600
+
+
+Started GET "/assets/cover3-530660cdfd1fb5cd9703229491ae04b5c2b6e504910ee8c77e38e18c37517b37.jpg" for ::1 at 2017-02-08 23:04:51 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:06:21 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (12.0ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 140ms (Views: 139.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cover4-7819272ebc8d4488bc07019cacdb1abaf21df14a97f2363a7a3b839149ae224a.jpg" for ::1 at 2017-02-08 23:06:21 -0600
+
+
+Started GET "/assets/cover5-6a702930034743584dcb3138a0f0ee4f8a101c661e8131b675e3e227e204aa19.jpg" for ::1 at 2017-02-08 23:06:21 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:07:19 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (16.5ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 260ms (Views: 259.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-34593bacfb0efea67755a20fb218b49931edf15db8f1b85f079a7566ecf93c51.css?body=1" for ::1 at 2017-02-08 23:07:19 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:07:21 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (15.0ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 162ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:07:53 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (13.0ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 143ms (Views: 143.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:09:44 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (16.5ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 214ms (Views: 213.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bd85c3996fef5b3050b5897841101394af197c6ade2f4887fce3a8e4fbde729c.css?body=1" for ::1 at 2017-02-08 23:09:44 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:09:52 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (9.5ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 156ms (Views: 155.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:10:27 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (12.0ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 191ms (Views: 191.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b97a40dd0d98dd766c1d35d64e6b5f49a4ffff4fd42d2c00ff5cfe2b3e8ebb7d.css?body=1" for ::1 at 2017-02-08 23:10:27 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:11:30 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (13.0ms)
+  Rendered partials/_sidebar.html.erb (0.5ms)
+Completed 200 OK in 216ms (Views: 215.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fb756ec62c1d53700de82ae46bd5bb51a7449e916d343b7a6cb873456c1e90a9.css?body=1" for ::1 at 2017-02-08 23:11:30 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:12:05 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (13.0ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 199ms (Views: 199.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d3099d0a33d7a9174dd0c41fafca87520f7d11cf0da6955d6a1b7b2acc71c274.css?body=1" for ::1 at 2017-02-08 23:12:05 -0600
+
+
+Started GET "/" for ::1 at 2017-02-08 23:13:35 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (13.5ms)
+  Rendered partials/_sidebar.html.erb (0.5ms)
+Completed 200 OK in 164ms (Views: 163.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:14:44 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (11.5ms)
+  Rendered partials/_sidebar.html.erb (1.5ms)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.0ms)
+
+SyntaxError (c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:13: syntax error, unexpected ==
+...  'books' %% params[:action] == 'index' || params[:action] =...
+...                               ^
+c:/Users/conve/Documents/ruby-rails/bookstore/app/views/partials/_sidebar.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/partials/_sidebar.html.erb:13: syntax error, unexpected ==
+  app/views/partials/_sidebar.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/layouts/application.html.erb:57:in `_app_views_layouts_application_html_erb___912745927_73464528'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1269.6ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1132.3ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2628.8ms)
+
+
+Started GET "/" for ::1 at 2017-02-08 23:15:04 -0600
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (9.6ms)
+  Rendered partials/_sidebar.html.erb (0.0ms)
+Completed 200 OK in 140ms (Views: 139.2ms | ActiveRecord: 0.0ms)
