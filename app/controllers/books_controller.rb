@@ -8,6 +8,9 @@ class BooksController < ApplicationController
   end
 
   def create
+    @book = Book.new(book_params)
+    @book.save
+    redirect_to books_path
   end
 
   def update
@@ -20,14 +23,18 @@ class BooksController < ApplicationController
   end
 
   def index
+    @books = Book.all
+    @categories = Category.all
   end
 
   def show
+    @books = Book.all
+    @categories = Category.all
   end
 
   private
     def book_params
-      params.require(:book).permit(:title, :category_id, :author_id, :publisher_id, :isnb, :price, :buy, :format, :excerpt, :pages, :year)  
+      params.require(:book).permit(:title, :category_id, :author_id, :publisher_id, :isbn, :price, :buy, :format, :scerpt, :pages, :year, :coverpath)
     end
 
 end

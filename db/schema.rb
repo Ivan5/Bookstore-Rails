@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170210002813) do
+ActiveRecord::Schema.define(version: 20170210042128) do
 
   create_table "authors", force: :cascade do |t|
     t.string   "first_name", limit: 255
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20170210002813) do
     t.integer  "pages",        limit: 4
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+    t.string   "coverpath",    limit: 255
   end
 
   create_table "categories", force: :cascade do |t|
